@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fanC - My Wishlist</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo/logo.png"
+      type="image/x-icon"
+      style="border-radius: 4px"
+    />
+    <link rel="stylesheet" href="./assets/css/style-prefix.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="success-message" class="success-message"></div>
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-social-container">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <div class="header-alert-news">
+            <p><b>fanC</b> - Get up to 50% off on selected items. Shop Now!</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-main">
+        <div class="container">
+          <a href="./index.html" class="header-logo"
+            ><img
+              src="./assets/images/logo/logo.png"
+              alt="fanC's logo"
+              width="55"
+              height="55"
+              style="border-radius: 8px"
+          /></a>
+          <div class="header-search-container">
+            <input
+              type="search"
+              name="search"
+              class="search-field"
+              placeholder="Enter your product name..."
+            /><button class="search-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="header-user-actions">
+            <button class="action-btn" aria-label="User profile">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+            <a href="./wishlist.html" class="action-btn" aria-label="Wishlist">
+              <ion-icon name="heart-outline"></ion-icon
+              ><span class="count">0</span></a
+            >
+            <a href="./cart.html" class="action-btn" aria-label="Shopping bag">
+              <ion-icon name="bag-handle-outline"></ion-icon
+              ><span class="count">0</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <nav class="desktop-navigation-menu">
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="./index.html" class="menu-title">Home</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Categories</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Men's</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Women's</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Jewelry</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Perfume</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Blog</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Hot Offers</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="product-container" id="wishlist-container">
+        <div class="container">
+          <h2 class="title">My Wishlist</h2>
+          <div class="product-grid" id="wishlist-grid">
+            <!-- Wishlist items will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-bottom">
+        <div class="container">
+          <img
+            src="./assets/images/payment.png"
+            alt="payment method"
+            class="payment-img"
+          />
+          <p class="copyright">
+            Copyright &copy; <a href="#">fanC</a> all rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
